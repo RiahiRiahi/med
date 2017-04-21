@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">المعهد العالي للدراسات التكنولوجية بقليبية</string>
+    <string name="text_hello">مرحبا بك في الصفحة الرئيسية</string>
+    <string name="Email">البريد الإلكتروني</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="CIN">بطاقة التعريف الوطنية</string>
+    <string name="adr">العنوان : واد الخطف ,قليبية 8090 , تونس</string>
+    <string name="login">دخول</string>
+    <string name="call">اتصل بنا :72277090</string>
+    <string name="Login2">دخول</string>
+    <string name="password">كلمة السر</string>
+    <string name="textview">TextView</string>
+    <string name="InstitutInfo"> المعهد العالي للدراسات التكنولوجية بقليبية هي مؤسسة تابعة لوزارة  التعليم العالي و البحث العلمي التونسية . تأسست في عام 2012 لهدف تكوين الطلبة في مجال الاجازة التطبيقية ضمن نظام أمد .\n
+ يحتوي المعهد على 3 اختصاصات :\n
+ 1: تكنولوجيا الاعلامية.\n
+ 2: الهندسة الغذائية.\n
+      3: الهندسة البحرية.\n
+يقع المعهد في مدينة قليبية التابعة لولاية نابل.\n</string>
+    <string name="title_activity_googlemap">الخريطة</string>
+    <string name="accueil">الصفحة الرئيسية</string>
+    <string name="MonCompte">حسابي</string>
+    <string name="Gf">معرض الصور</string>
+    <string name="institut">المعهد</string>
+    <string name="contact">للاتصال</string>
+    <string name="nom">الاسم</string>
+    <string name="TI">علوم الاعلامية </string>
+    <string name="GP">اساليب غذائية</string>
+    <string name="departementtiisetkelibia">departementtiisetkelibia</string>
+    <string name="GM">هندسة بحرية</string>
+    <string name="prenom">اللقب</string>
+    <string name="Filière">التخصص</string>
+    <string name="daten">تاريخ الولادة</string>
+    <string name="parametre">الإعدادات</string>
+    <string name="Com">التواصل</string>
+    <string name="envoyer">إرسال</string>
+        <string name="Réclamation"> فضاء الشكاوي</string>
+    <string name="Posezreclamation">ضع شكواك هنا !</string>
+    <string name="bienvenu">أهلا  بك إلى حسابك</string>
+    <string name="ISET">المعهد العالي للدراسات التكنولوجية بقليبية</string>
+    <string name="discussion">الدردشة</string>
+    <string name="emploi">توقيت الدروس</string>
+    <string name="resultat">النتائج</string>
+    <string name="absencen">الغيابات</string>
+    <string name="cours">الدروس </string>
+    <string name="examens">الامتحانات</string>
+</resources>

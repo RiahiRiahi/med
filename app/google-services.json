@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1063998818333",
+    "firebase_url": "https://accueil-48ec3.firebaseio.com",
+    "project_id": "accueil-48ec3",
+    "storage_bucket": "accueil-48ec3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063998818333:android:0b12d5de7831ee09",
+        "android_client_info": {
+          "package_name": "com.example.med.accueil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063998818333-ttlqir119juol34o5secsnlosfn2en1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXkO7ynI4_HonJ9RQWU4JnhYFrT7vIsVQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

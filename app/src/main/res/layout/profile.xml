@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollY="@dimen/activity_horizontal_margin">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:src="@drawable/welcom"
+            />
+        <TextView
+            android:id="@+id/mon_compte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenu dans votre Compte"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8432"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/mon_compte1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8432"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/mon_compte2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8432"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/textViewcinEtd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CIN :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8432" />
+
+        <EditText
+            android:id="@+id/cinEtd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="#e55b00" />
+
+
+        <TextView
+            android:id="@+id/textViewNomEtd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8432" />
+
+        <EditText
+            android:id="@+id/nomEtd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#e55b00" />
+        <TextView
+            android:id="@+id/textViewprenomEtd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prénom :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8432" />
+
+        <EditText
+            android:id="@+id/prenomEtd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#e55b00" />
+
+        <TextView
+            android:id="@+id/textViedateEtd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date de naissance :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8432" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/dateEtd" />
+        <LinearLayout
+            android:layout_width="315dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/sexeEtd"
+                android:layout_width="wrap_content"
+                android:layout_height="494dp"
+                android:text="Sexe :"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff8432" />
+
+            <RadioButton
+                android:id="@+id/radioButtonEtd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Homme"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff8432" />
+
+
+            <RadioButton
+                android:id="@+id/radioButtonEtd2"
+                android:layout_width="168dp"
+                android:layout_height="wrap_content"
+                android:text="Femme"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff8432" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textVieadressEtd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adresse :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8432" />
+
+        <EditText
+            android:id="@+id/adressEtd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#e55b00" />
+        <TextView
+            android:id="@+id/textTelEtd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tel :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8432" />
+
+        <EditText
+            android:id="@+id/TelEtd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="#e55b00" />
+        <TextView
+            android:id="@+id/textmailEtd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mail :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8432" />
+
+        <EditText
+            android:id="@+id/edittext_mailEtd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textColor="#e55b00" />
+        <TextView
+            android:id="@+id/textFiliaire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filiaire :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8432" />
+
+        <EditText
+            android:id="@+id/Filiaire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#e55b00" />
+
+        <TextView
+            android:id="@+id/textNumInscrit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numéro d'Inscrit :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8432" />
+
+        <EditText
+            android:id="@+id/numinscrit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#e55b00" />
+    </LinearLayout>
+
+</ScrollView>

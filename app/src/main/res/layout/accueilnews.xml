@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.med.accueil.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <Button
+            android:layout_width="155dp"
+            android:layout_height="100dp"
+            android:onClick="btnBrowse_Click"
+            android:background="@mipmap/allpic"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Browse Image To UpLoad"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:id="@+id/GalerieText"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtImageName"
+            android:hint="Description"/>
+        <LinearLayout
+            android:layout_width="363dp"
+            android:layout_height="110dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.68"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="151dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/upload"
+                android:onClick="btnUpload_Click" />
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="155dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/galorie"
+                android:onClick="btnShowListImage_Click"
+                android:layout_weight="0.44" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="137dp"
+                android:layout_height="50dp"
+                android:text="             UpLoad Image"
+                android:id="@+id/UploadText"
+                android:layout_weight="0.60" />
+
+            <TextView
+                android:layout_width="137dp"
+                android:layout_height="50dp"
+                android:id="@+id/ShowText"
+                android:text="      Show List Image"
+                android:layout_weight="0.30" /></LinearLayout>
+    </LinearLayout>
+</ScrollView>

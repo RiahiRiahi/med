@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.med.accueil.Addcoursensg"
+>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+    <TextView
+        android:id="@+id/mon_compte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selectionner votre fichier PDF"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/mon_compte1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/mon_compte2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/textViecin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titre"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432" />
+
+    <EditText
+        android:hint="Ajouter Titre "
+        android:id="@+id/titre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#e55b00" />
+        <TextView
+        android:id="@+id/textdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ajouter Votre Description "
+        android:textColor="#e55b00" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="184dp"
+                android:layout_height="match_parent"
+                android:id="@+id/addpdf"
+                android:text="Add Pdf"/>
+
+            <Button
+                android:id="@+id/showpdf"
+                android:layout_width="188dp"
+                android:text="Show List Pdf"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+</LinearLayout>
+</ScrollView>

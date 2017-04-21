@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <string-array name="classeTI">
+        <item>TI11</item>
+        <item>TI12</item>
+        <item>TI13</item>
+        <item>TI14</item>
+        <item>TI15</item>
+        <item>MDW21</item>
+        <item>DSI21</item>
+        <item>DSI22</item>
+        <item>MDW31</item>
+        <item>DSI31</item>
+        <item>DSI32</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/mon_compte12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/mon_compte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Réclamation"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:src="@drawable/reclamation"
+        android:layout_weight="0.22" />
+
+  <TextView
+    android:id="@+id/mon_compte10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="#ff8432"
+    android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/mon_compte22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432"
+        android:layout_gravity="center"/><TextView
+    android:id="@+id/mon_compte11"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="#ff8432"
+    android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/mon_compte2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/textViewnom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Posezreclamation"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432" />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#e55b00" />
+    <TextView
+        android:id="@+id/mon_compte24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#82be74"
+        android:text="@string/envoyer"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+    </LinearLayout></ScrollView>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollY="@dimen/activity_horizontal_margin">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="109dp"
+      android:src="@drawable/welcom"
+    />
+  <TextView
+        android:id="@+id/mon_compte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenu dans votre Compte"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/mon_compte1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/mon_compte2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/textViecin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CIN :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432" />
+
+    <EditText
+        android:id="@+id/cin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="#e55b00" />
+
+
+    <TextView
+        android:id="@+id/textViewnom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432" />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#e55b00" />
+    <TextView
+        android:id="@+id/textViewprenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prénom :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432" />
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#e55b00" />
+
+    <TextView
+        android:id="@+id/textViedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date de naissance :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/date" />
+<LinearLayout
+    android:layout_width="315dp"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/sexeText"
+        android:layout_width="wrap_content"
+        android:layout_height="494dp"
+        android:text="Sexe :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homme"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432" />
+
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:text="Femme"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432" />
+</LinearLayout>
+    <TextView
+        android:id="@+id/textVieadress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adresse :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432" />
+
+    <EditText
+        android:id="@+id/adress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#e55b00" />
+    <TextView
+    android:id="@+id/texttel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Tel :"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="#ff8432" />
+
+    <EditText
+        android:id="@+id/Tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="#e55b00" />
+    <TextView
+        android:id="@+id/textmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mail :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432" />
+
+    <EditText
+        android:id="@+id/edittext_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#e55b00" />
+    <TextView
+        android:id="@+id/textdiplome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diplome :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff8432" />
+
+    <EditText
+        android:id="@+id/diplome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#e55b00" />
+    <TextView
+    android:id="@+id/textSpecialité"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Spécialité :"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="#ff8432" />
+
+    <EditText
+        android:id="@+id/Spécialité"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#e55b00" />
+    <TextView
+    android:id="@+id/textEtablissement"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Etablissement :"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="#ff8432" />
+
+    <EditText
+        android:id="@+id/Etablissement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#e55b00" />
+    </LinearLayout>
+
+</ScrollView>
