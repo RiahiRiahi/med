@@ -1,9 +1,12 @@
 package com.example.med.accueil;
 
+import android.content.Intent;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -15,6 +18,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import java.util.Locale;
+
+import static android.app.PendingIntent.getActivity;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -98,7 +103,12 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
         android.app.FragmentManager fragmentManager = getFragmentManager();
 
-        if (id == R.id.accueil) {
+     /*if (id == R.id.parametres) {
+        // TODO Auto-generated method stub
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse("https://www6.inscription.tn/fr"));
+        getActivity().startActivity(i);}
+        else */if (id == R.id.accueil) {
             fragmentManager.beginTransaction()
                     .replace(R.id.content_frame
                     ,new accueil())
@@ -125,19 +135,35 @@ public class MainActivity extends AppCompatActivity
                         ,new Contact())
                 .commit();
 
-        } else if (id == R.id.parametres) {
+        } else if (id == R.id.parametre) {
             fragmentManager.beginTransaction()
                     .replace(R.id.content_frame
                             ,new Parametres())
                     .commit();
 
-        }
+        }  else if (id == R.id.Bourse) {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame
+                            ,new Bourse())
+                    .commit();
 
+        }
+        else if (id == R.id.Foyer) {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame
+                            ,new Foyer())
+                    .commit();
+
+        }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
+
         return true;
     }
 
     private void commit() {
     }
+
+
+
 }

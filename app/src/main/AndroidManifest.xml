@@ -52,6 +52,8 @@
         <activity android:name=".Addcoursensg" />
         <activity android:name=".Addpic" />
         <activity android:name=".ListImages" />
+        <activity android:name=".Bourse" />
+        <activity android:name=".Foyer"></activity>
     </application>
 
 </manifest>

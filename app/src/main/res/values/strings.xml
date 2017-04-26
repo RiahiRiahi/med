@@ -53,7 +53,17 @@
     <string name="absencen">Absence</string>
     <string name="cours">Cours</string>
     <string name="examens">Examen</string>
+    <string name="Services">Services</string>
+    <string name="Bourse">Bourse</string>
+    <string name="Foyer">Foyer</string>
+    <string name="bourse">Les demandes de subventions et de prêts</string>
+    <string name="bourse1">Foyer</string>
+    <string name="bourse2">Foyer</string>
+    <string name="bourseloi">Conditions d\'obtention subvention</string>
+    <string name="foyer">Logement Universitaire</string>
+    <string name="foyerrnv">Renouvellement Du Logement Universitaire</string>
     <string name="Ajouter_une_photo">Ajouter une photo</string>
+    <string name="services">Services</string>
 
 </resources>
 

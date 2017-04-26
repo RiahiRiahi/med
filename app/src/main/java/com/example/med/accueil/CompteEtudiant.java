@@ -130,11 +130,6 @@ public class CompteEtudiant extends Fragment {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                /*Resultats nextFrag = new Resultats();
-                getActivity().getFragmentManager().beginTransaction()
-                        .replace(R.id.content_frame, nextFrag, "TAG_FRAGMENT")
-                        .addToBackStack(null)
-                        .commit();*/
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse("https://www6.inscription.tn/fr"));
                 getActivity().startActivity(i);

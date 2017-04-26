@@ -45,4 +45,10 @@
     <string name="absencen">Absence</string>
     <string name="cours">Cours</string>
     <string name="examens">Examen</string>
-    </resources>
+    <string name="foyer">Foyer</string>
+    <string name="bourse">Conditions for obtaining a grant</string>
+    <string name="Bourse">Bourse</string>
+    <string name="Foyer">Logement Universitaire</string>
+    <string name="Foyer1">Renouvellement Du Logement Universitaire</string>
+    <string name="services">Services</string>
+</resources>

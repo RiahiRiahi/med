@@ -27,11 +27,24 @@
                 android:id="@+id/contact"
                 android:icon="@drawable/ic_room_black"
                 android:title="@string/contact" />
-            <item
-            android:id="@+id/parametres"
-            android:icon="@drawable/settings"
-            android:title="@string/parametre" />
+
+
         </menu>
     </item>
-
+    <item android:title="@string/Services">
+        <menu>
+            <item
+                android:id="@+id/Bourse"
+                android:icon="@mipmap/card"
+                android:title="@string/Bourse" />
+            <item
+                android:id="@+id/Foyer"
+                android:icon="@mipmap/foyer"
+                android:title="@string/Foyer" />
+            <item
+                android:id="@+id/parametre"
+                android:icon="@mipmap/parametres"
+                android:title="@string/parametre"/>
+        </menu>
+    </item>
 </menu>

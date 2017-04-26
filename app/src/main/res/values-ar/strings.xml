@@ -43,4 +43,11 @@
     <string name="absencen">الغيابات</string>
     <string name="cours">الدروس </string>
     <string name="examens">الامتحانات</string>
+    <string name="foyer"> الاسعاف بالسكن الجامعي</string>
+    <string name="foyerrnv"> تجديد السكن الجامعي</string>
+    <string name="Foyer">المبيت الجامعي </string>
+    <string name="Foyer1"> تجديد السكن الجامعي</string>
+    <string name="Bourse">مطالب المنح و القروض</string>
+    <string name="bourse">شروط الحصول على منحة</string>
+    <string name="Services">الخدمات</string>
 </resources>

@@ -44,4 +44,11 @@
     <string name="absencen">Absence</string>
     <string name="cours">Lessons </string>
         <string name="examens">Examen</string>
+        <string name="foyer">University housing</string>
+        <string name="foyerrnv">Renewal of university housing</string>
+        <string name="Foyer">University housing</string>
+        <string name="Foyer1">Renewal of university housing</string>
+        <string name="Bourse">Requirements for grants and loans</string>
+        <string name="bourse">Conditions for obtaining a grant</string>
+        <string name="Services">Services</string>
 </resources>
